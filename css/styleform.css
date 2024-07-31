@@ -1,0 +1,175 @@
+body{
+    /*background: #63C4D8;
+    /*background: linear-gradient(#023C4F, #96D3E3, #023C4F);*/
+    font-family: 'Poppins';
+    font-size: 80%;
+}
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #00BED6 50%, #005A76 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+/*BARRA NAVEGACION*/
+.fixed-top {
+    position: relative;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F9F9F9;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    color: #96D3E3;
+}
+
+.navbar-nav{
+    align-items: center;
+    padding-left: 20%;
+}
+
+.btn-info {
+    background-color: #03789D;
+    border-color: #03789D;
+    border-radius: 2rem;
+}
+
+.btn-info:hover{
+    background-color: #023C4F;
+    border-color: #023C4F;
+    border-radius: 2rem;
+}
+
+#soymedico{
+    color: #F9F9F9;
+}
+
+/* Estilo para el navbar con fondo cuando el toggle está activo */
+.navbar-collapse.show {
+    background-color: rgb(0, 190, 214, 0.4); /* Cambia #ffffff por el color de fondo deseado */
+    border-radius: 2rem;
+    padding: 2%;
+    align-content: center;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #00BED6;
+}
+
+/*FORMULARIO*/
+
+#content-form{
+    color: #F9F9F9;
+    background-color: rgba(2, 60, 79, 0.4);
+    padding: 6%;
+    border-radius: 2rem;
+    width: auto;
+}
+
+#submitButton{
+    color: #023C4F;
+    background-color: #96D3E3;
+    border-color: #96D3E3;
+    border-radius: 2rem;
+}
+
+#submitButton:hover{
+    color: #96D3E3;
+    background-color: #023C4F;
+    border-color: #023C4F;
+    border-radius: 2rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 760px) {
+    #title-form, #nombre, #dni, #cmp, #espmed, #telf, #email, #mensaje, #consentimiento {
+        font-size: 1.5rem; /* Disminuir tamaño de fuente del título en pantallas pequeñas */
+    }
+}
+
+/* Estilos responsivos */
+@media (max-width: 480px) {
+    #title-form, #nombre, #dni, #cmp, #espmed, #telf, #email, #mensaje, #consentimiento {
+        font-size: 1rem; /* Disminuir tamaño de fuente del título en pantallas pequeñas */
+    }
+}
+
+
+
+/* FOOTER */
+#footer{
+    color: #023C4F;
+}
+
+#ft1-h5, #ft2-h5, #ft3-h5 {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+#ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+#ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+, #ft3-l1, #ft3-l2, #ft3-l3 {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+#ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+#ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+, #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+    color: #F9F9F9;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #F9F9F9 !important;
+}
+
+.footer-logo {
+    max-width: 80%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #023C4F !important;
+}
+
+#propiedad{
+    color: #F9F9F9;
+}
