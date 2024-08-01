@@ -1242,18 +1242,18 @@
     }
 
     #tit-ban-cli{
-        font-size: 102%;
+        font-size: 105%;
     }
     
     #cnt-ban-cli{
         margin: 5% 0% 0% 0%;
-        font-size: 40%;
+        font-size: 52%;
     }
     
     #cc-lema{
         position: absolute;
         top: 50%; /* Coloca el texto en el centro vertical */
-        transform: translateY(-50%); /* Ajusta para centrarlo exactamente */
+        transform: translateY(-35%); /* Ajusta para centrarlo exactamente */
         color: #5d5c60; /* Color del texto */
         padding: 0px; /* Espacio interior del texto */
         width: 40%; /* Ancho completo del contenedor */
@@ -1261,7 +1261,7 @@
     }
     
     #tit-ban-ser{
-        font-size: 102%;
+        font-size: 123%;
         text-align: left;
         padding-left: 20%;
     }
@@ -1281,13 +1281,13 @@
     }
 
     #col-list2{
-        padding-left: 10%;
+        padding-left: 20%;
     }
     
     #cc-servmed{
         position: absolute;
         top: 50%; /* Coloca el texto en el centro vertical */
-        transform: translateY(-30%); /* Ajusta para centrarlo exactamente */
+        transform: translateY(-40%); /* Ajusta para centrarlo exactamente */
         color: #5d5c60; /* Color del texto */
         padding: 0px; /* Espacio interior del texto */
         width: 50%; /* Ancho completo del contenedor */
@@ -1310,12 +1310,12 @@
     
     #tit-ha, #tit-ub{
         margin: 3% 0% 0% 0%;
-        font-size: 80%;
+        font-size: 103%;
     }
     
     #hor-atn, #ubc{
         margin: 1% 0% 0% 0%;
-        font-size: 70%;
+        font-size: 62%;
     }
     
     #cc-horat{
@@ -1430,6 +1430,37 @@
         padding: 0% 0% 5% 5%;
     }
     /*Fin sede*/
+
+    /*inicio footer*/
+    #footer{
+
+    }
+
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 120%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size: 90%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 90%;
+    }
+
+    .footer-logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #propiedad{
+        font-size: 60%;
+    }
+    /*fin footer*/
 }
 
 /* Estilos responsivos pantalla mínima visualización*/
