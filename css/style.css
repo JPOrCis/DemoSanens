@@ -135,9 +135,9 @@ body{
     filter: brightness(0.92);
 }*/
 
-.carousel-indicators{
-    transform: translateX(30%);
-}
+/*.carousel-indicators{
+    padding-left: 50%;
+}*/
 
 #tit-ban-cli{
     font-size: 500%;
