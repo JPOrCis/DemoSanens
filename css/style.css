@@ -135,6 +135,11 @@ body{
     filter: brightness(0.8);
 }*/
 
+.carousel-indicators{
+    margin: 0% 5% 0% 55%;
+    /*width: 45%;*/
+}
+
 #tit-ban-cli{
     font-size: 500%;
 }
