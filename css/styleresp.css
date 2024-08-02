@@ -1,6 +1,6 @@
 /* ========Estilos responsivos======== */
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 
     /*logo*/
     .logosanens{
@@ -10,17 +10,17 @@
 
     /*inicio carousel*/
     .carousel-indicators{
-        margin: 0% 5% 0% 55%;
+        margin: 0% 5% 0% 40%;
         width: 45%;
     }
 
     #tit-ban-cli{
-        font-size: 147%;
+        font-size: 173%;
     }
     
     #cnt-ban-cli{
         margin: 5% 0% 0% 0%;
-        font-size: 72%;
+        font-size: 85%;
     }
     
     #cc-lema{
@@ -34,20 +34,20 @@
     }
     
     #tit-ban-ser{
-        font-size: 168%;
+        font-size: 196%;
         text-align: left;
         padding-left: 20%;
     }
     
     #col-ban-ser1{
-        font-size: 110%;
+        font-size: 130%;
         text-align: left;
         list-style-type: circle;
         padding-left: 15%;
     }
 
     #col-ban-ser2{
-        font-size:110%;
+        font-size:130%;
         text-align: left;
         list-style-type: circle;
         padding-left: 0%;
@@ -83,12 +83,12 @@
     
     #tit-ha, #tit-ub{
         margin: 3% 0% 0% 0%;
-        font-size: 144%;
+        font-size: 170%;
     }
     
     #hor-atn, #ubc{
         margin: 1% 0% 0% 0%;
-        font-size: 87%;
+        font-size: 103%;
     }
     
     #cc-horat{
@@ -187,6 +187,261 @@
 
     #group-esp {
         margin: 0% 5% 0% 5%;
+        flex-direction: column;
+    }
+
+    #ct-esp1, #ct-esp2, #ct-esp3, #ct-esp4{
+        font-size: 222%;
+    }
+
+    #title-espef{
+        padding: 10%;
+        margin: 0% 5% 10% 5%;
+    }
+    
+    #espef{
+        padding: 5%;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 0, 0, 0.25);
+        font-size: 140%;
+    }
+    
+   #espef:hover{
+        padding: 5%;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 0, 0, 0.25);
+        font-size: 140%;
+    }
+    /*fin especialidades*/
+
+    /*Inicio sede*/
+    #sede{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 300%;
+    }
+
+    #map-sede-overlay{
+        padding: 0% 0% 5% 5%;
+    }
+    /*Fin sede*/
+
+    /*inicio footer*/
+    #footer{
+        padding: 0% 10% 0% 10%;
+    }
+
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 150%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size: 100%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 100%;
+    }
+
+    .footer-logo {
+        max-width: 90%;
+        height: auto;
+    }
+    /*fin footer*/
+}
+
+@media (max-width: 650px) {
+
+    /*logo*/
+    .logosanens{
+        width: 45%;
+        height: auto;
+    }
+
+    /*inicio carousel*/
+    .carousel-indicators{
+        margin: 0% 5% 0% 40%;
+        width: 45%;
+    }
+
+    #tit-ban-cli{
+        font-size: 173%;
+    }
+    
+    #cnt-ban-cli{
+        margin: 5% 0% 0% 0%;
+        font-size: 85%;
+    }
+    
+    #cc-lema{
+        position: absolute;
+        top: 50%; /* Coloca el texto en el centro vertical */
+        transform: translateY(-40%); /* Ajusta para centrarlo exactamente */
+        color: #5d5c60; /* Color del texto */
+        padding: 0px; /* Espacio interior del texto */
+        width: 40%; /* Ancho completo del contenedor */
+        left: 10%;
+    }
+    
+    #tit-ban-ser{
+        font-size: 196%;
+        text-align: left;
+        padding-left: 20%;
+    }
+    
+    #col-ban-ser1{
+        font-size: 130%;
+        text-align: left;
+        list-style-type: circle;
+        padding-left: 15%;
+    }
+
+    #col-ban-ser2{
+        font-size:130%;
+        text-align: left;
+        list-style-type: circle;
+        padding-left: 0%;
+    }
+
+    #col-list2{
+        padding-left: 15%;
+    }
+    
+    #cc-servmed{
+        position: absolute;
+        top: 50%; /* Coloca el texto en el centro vertical */
+        transform: translateY(-40%); /* Ajusta para centrarlo exactamente */
+        color: #5d5c60; /* Color del texto */
+        padding: 0px; /* Espacio interior del texto */
+        width: 50%; /* Ancho completo del contenedor */
+        left: 2%;
+    }
+
+    iframe{
+        height: 50px;
+    }
+    
+    #cnt-video{
+        position: absolute;
+        top: 50%; /* Coloca el texto en el centro vertical */
+        transform: translateY(-45%); /* Ajusta para centrarlo exactamente */
+        color: #5d5c60; /* Color del texto */
+        padding: 20px; /* Espacio interior del texto */
+        width: 40%; /* Ancho completo del contenedor */
+        left: 10%;
+    }
+    
+    #tit-ha, #tit-ub{
+        margin: 3% 0% 0% 0%;
+        font-size: 170%;
+    }
+    
+    #hor-atn, #ubc{
+        margin: 1% 0% 0% 0%;
+        font-size: 103%;
+    }
+    
+    #cc-horat{
+        position: absolute;
+        top: 50%; /* Coloca el texto en el centro vertical */
+        transform: translateY(-50%); /* Ajusta para centrarlo exactamente */
+        color: #5d5c60; /* Color del texto */
+        padding: 0px; /* Espacio interior del texto */
+        width: 40%; /* Ancho completo del contenedor */
+        left: 10%;
+    }
+    /*fin carousel*/
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 300%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #group-serv{
+        flex-direction: column;
+    }
+
+    #card-serv1 {
+        margin: 0% 5% 5% 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        width: 90%;
+    }
+
+    #card-serv2, #card-serv3, #card-serv4{
+        margin: 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        width: 90%;
+    }
+    
+    #serv-comed, #serv-dimag, #serv-lacli, #serv-farm{
+        width: 40%;
+    }
+
+    #ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4{
+        font-size: 200%;
+    }
+    
+    #title-servf{
+        text-align: center;
+        margin: 1% 0% 10% 0%;
+        padding: 1%;
+    }
+    
+    #servf{
+        color: #F9F9F9;
+        background-color: #5D5C60;
+        padding: 5%;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        font-size: 140%;
+    }
+    
+    #servf:hover{
+        color: #F9F9F9;
+        background-color: #9E9DA0;
+        padding: 5%;
+        border-radius: 3rem;
+        font-size: 140%;
+    }
+    /*fin servicios*/
+
+    /*inicio convenios*/
+    #conv{
+        font-size: 300%
+    }
+
+    #card-conv1, #card-conv2, #card-conv3,
+    #card-conv4, #card-conv15{
+        padding: 0%;
+    }
+    /*fin convenios*/
+
+    /*inicio especialidades*/
+    #title-espei{
+        margin: 5% 5% 0% 5%;
+    }
+
+    #espei{
+        padding: 10%;
+    }
+
+    #h3espei{
+        font-size: 220%
+    }
+
+    #group-esp {
+        margin: 0% 5% 0% 5%;
+        flex-direction: column;
     }
 
     #ct-esp1, #ct-esp2, #ct-esp3, #ct-esp4{

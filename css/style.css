@@ -132,12 +132,11 @@ body{
 
 /*CAROUSEL PORTADA*/
 /*.carousel-item{
-    filter: brightness(0.8);
+    filter: brightness(0.92);
 }*/
 
 .carousel-indicators{
-    margin: 0% 5% 0% 55%;
-    /*width: 45%;*/
+    transform: translateX(30%);
 }
 
 #tit-ban-cli{
