@@ -316,7 +316,7 @@ body{
     color: #5D5C60;
     background-color: #F9F9F9;
     /*background: linear-gradient(#96D3E3 10%, #F9F9F9);*/
-    padding: 10% 0% 5% 0%;
+    padding: 5% 0% 5% 0%;
 }
 
 #conv{
@@ -349,7 +349,7 @@ body{
     border-top-right-radius: 3rem !important;
     border-bottom-left-radius: 0rem !important;
     border-bottom-right-radius: 0rem !important;
-    margin: 5% 2% 0% 2%;
+    margin: 2% 2% 0% 2%;
 }
 
 #espei{
@@ -408,7 +408,7 @@ body{
     color: #96D3E3;
     background-color: #5D5C60;
     padding: 2%;
-    margin: 0% 2% 5% 2%;
+    margin: 0% 2% 2% 2%;
     border-top-left-radius: 0rem !important;
     border-top-right-radius: 0rem !important;
     border-bottom-left-radius: 3rem !important;
@@ -442,6 +442,7 @@ body{
 
 #sede{
     font-weight: bold;
+    font-size: 300%;
 }
 
 #group-sede, #card-sede1, #card-sede2{
