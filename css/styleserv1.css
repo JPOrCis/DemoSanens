@@ -4,17 +4,13 @@
     height: auto;
 }
 
-/* Estilos responsivos */
-@media (max-width: 760px) {
-    .logosanens {
-        width: 50%;
-        height: auto; /* Disminuir tamaño del logo en pantallas pequeñas */
-    }
+/*BARRA NAVEGACION*/
+.fixed-top{
+    background-color: rgba(249, 249, 249, 0.60);
 }
 
-/*BARRA NAVEGACION*/
 .navbar-light .navbar-nav .nav-link {
-    color: #5D5C60;
+    color: #023C4F;
 }
   
 .navbar.scrolled {
@@ -37,173 +33,97 @@
     color: #F9F9F9;
 }
 
-/* Estilo para el navbar con fondo cuando el toggle está activo */
-.navbar-collapse.show {
-    background-color: #F9F9F9; /* Cambia #ffffff por el color de fondo deseado */
-    border-radius: 2rem;
-    padding: 2%;
-    align-content: center;
-}
-
-.navbar-light .navbar-toggler {
-    background-color: #00BED6;
-}
-
-/*CAROUSEL PORTADA*/
-.carousel-item{
-    filter: brightness(0.8);
-}
-
-/* Estilo para el texto encima de las imágenes */
-.carousel-caption {
-    position: absolute;
-    top: 50%; /* Coloca el texto en el centro vertical */
-    transform: translateY(-50%); /* Ajusta para centrarlo exactamente */
-    color: #5d5c60; /* Color del texto */
-    /*background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    padding: 20px; /* Espacio interior del texto */
-    width: 40%; /* Ancho completo del contenedor */
-    left: 10%;
-  }
-
-/* Estilo para el título dentro del texto */
-.carousel-caption h5 {
-    font-size: 2.5rem; /* Tamaño de fuente del título */
-    font-weight: bold; /* Negrita opcional */
-}
-
-/* Estilo para la descripción dentro del texto */
-.carousel-caption p {
-    font-size: 2rem; /* Tamaño de fuente de la descripción */
-}
-
-/* Estilos responsivos */
-@media (max-width: 900px) {
-    .carousel-caption h5 {
-        font-size: 1.5rem; /* Disminuir tamaño de fuente del título en pantallas pequeñas */
-    }
-    .carousel-caption p {
-        font-size: 1rem; /* Disminuir tamaño de fuente de la descripción en pantallas pequeñas */
-    }
-}
-
-/* Estilos responsivos */
-@media (max-width: 760px) {
-    .carousel-caption h5 {
-        font-size: 1.5rem; /* Disminuir tamaño de fuente del título en pantallas pequeñas */
-    }
-    .carousel-caption p {
-        font-size: 1rem; /* Disminuir tamaño de fuente de la descripción en pantallas pequeñas */
-    }
-}
-
-/* Estilos responsivos */
-@media (max-width: 480px) {
-    .carousel-caption h5 {
-        font-size: 1rem; /* Disminuir tamaño de fuente del título en pantallas pequeñas */
-    }
-    .carousel-caption p {
-        font-size: 0.5rem; /* Disminuir tamaño de fuente de la descripción en pantallas pequeñas */
-    }
-}
-
-/* Estilos responsivos pantalla mínima visualización*/
-@media (min-width: 320px) {
-    .d-md-block {
-        display: block !important;
-    }
-}
-
 /*SERVICIOS*/
-
-#seccard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 30%;
+#title-servi{
+    text-align: center;
+    color: #5D5C60;
+    background-color: #96D3E3;
+    padding: 2%;
 }
 
-#contpserv{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#servi{
+    font-weight: bold;
+    font-size: 300%;
 }
 
-#cardpserv1, #cardpserv2{
-    position: relative;
-    width: 600px;
-    height: 300px;
-    margin: 10% 0% 0% 0%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background: linear-gradient(45deg, red, blue)
+#group-serv {
+    text-align: center;
+    color: #F9F9F9;
+    /*background: linear-gradient(#F9F9F9, #96D3E3);*/
+    background-color: #96D3E3;
 }
 
-#imgserv1, #imgserv2{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 120%;
-    transition: 0.5s;
+#card-serv1, #card-serv2, #card-serv3, #card-serv4{
+    margin: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
 }
 
-#imgserv1:hover, #imgserv2:hover{
-    left: 75%;
-    height: 180%;
+#card-serv1 :hover, #card-serv2 :hover, #card-serv3 :hover, #card-serv4 :hover{
+    border-radius: 2rem;
+    border: 0;
 }
 
-#ctserv1{
-    position: relative;
-    width: 50%;
-    left: 0;
+#cb-serv1, #cb-serv2, #cb-serv3, #cb-serv4{
+    background-color: #5D5C60;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    border: 0;
+}
+
+#cb-serv1:hover, #cb-serv2:hover, #cb-serv3:hover, #cb-serv4:hover{
+    background-color: #68A6B5;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    border: 0;
+}
+
+#serv1, #serv2, #serv3, #serv4{
+    margin: 0%;
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+    border: 0;
+}
+
+#serv1:hover, #serv2:hover, #serv3:hover, #serv4:hover{
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+}
+
+#ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4{
+    margin: 10%;
+}
+
+#serv-comed, #serv-dimag, #serv-lacli, #serv-farm{
+    width: 30%;
+}
+
+#title-servf{
+    text-align: center;
+    margin: 1%;
     padding: 1%;
-    transition: 0.5s;
 }
 
-/* FOOTER */
-#ft1-h5, #ft2-h5, #ft3-h5 {
-    color: #023C4F;
-    text-decoration: none;
+#servf{
+    color: #F9F9F9;
+    background-color: #5D5C60;
+    padding: 1.2%;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
 }
 
-#ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
-#ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
-, #ft3-l1, #ft3-l2, #ft3-l3 {
-    color: #03789D;
-    text-decoration: none;
-}
-
-#ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
-#ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
-, #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
-    color: #00BED6;
-}
-
-.text-body-secondary {
-    --bs-text-opacity: 1;
-    color: #023C4F !important;
-}
-
-.footer-logo {
-    max-width: 80%;
-    height: auto;
-}
-
-@media (min-width: 768px) {
-    .col-md-2 {
-        -ms-flex: 0 0 16.666667%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-}
-
-.border-top {
-    border-top: 1px solid #023C4F !important;
-}
-
-#propiedad{
-    color: #005A76;
+#servf:hover{
+    color: #F9F9F9;
+    background-color: #9E9DA0;
+    padding: 1.2%;
+    border-radius: 3rem;
 }
