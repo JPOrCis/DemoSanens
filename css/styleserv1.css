@@ -49,14 +49,24 @@
 #group-serv {
     text-align: center;
     color: #F9F9F9;
-    /*background: linear-gradient(#F9F9F9, #96D3E3);*/
     background-color: #96D3E3;
 }
 
-#card-serv1, #card-serv2, #card-serv3, #card-serv4, 
-#card-serv5, #card-serv6, #card-serv7, #card-serv8,
-#card-serv9, #card-serv10{
-    margin: 1%;
+#card-serv1, #card-serv3, #card-serv5, 
+#card-serv7, #card-serv9{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 4%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+}
+
+#card-serv2, #card-serv4, #card-serv6, 
+#card-serv8, #card-serv10{
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 8%;
     border-radius: 2rem;
     border: 0;
     box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
@@ -73,23 +83,13 @@
 #cb-serv5, #cb-serv6, #cb-serv7, #cb-serv8,
 #cb-serv9, #cb-serv10{
     background-color: #5D5C60;
+    color: #F9F9F9;
     border-top-left-radius: 0rem !important;
     border-top-right-radius: 0rem !important;
     border-bottom-left-radius: 2rem !important;
     border-bottom-right-radius: 2rem !important;
     border: 0;
 }
-
-/*#cb-serv1 :hover, #cb-serv2 :hover, #cb-serv3 :hover, #cb-serv4 :hover,
-#cb-serv5 :hover, #cb-serv6 :hover, #cb-serv7 :hover, #cb-serv8 :hover,
-#cb-serv9 :hover, #cb-serv10 :hover{
-    background-color: #68A6B5;
-    border-top-left-radius: 0rem !important;
-    border-top-right-radius: 0rem !important;
-    border-bottom-left-radius: 2rem !important;
-    border-bottom-right-radius: 2rem !important;
-    border: 0;
-}*/
 
 #serv1, #serv2, #serv3, #serv4,
 #serv5, #serv6, #serv7, #serv8,
@@ -102,19 +102,18 @@
     border: 0;
 }
 
-/*#serv1 :hover, #serv2 :hover, #serv3 :hover, #serv4 :hover,
-#serv5 :hover, #serv6 :hover, #serv7 :hover, #serv8 :hover,
-#serv9 :hover, #serv10 :hover{
-    border-top-left-radius: 2rem !important;
-    border-top-right-radius: 2rem !important;
-    border-bottom-left-radius: 0rem !important;
-    border-bottom-right-radius: 0rem !important;
-}*/
-
 #ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4,
 #ct-serv5, #ct-serv6, #ct-serv7, #ct-serv8,
 #ct-serv9, #ct-serv10{
-    margin: 10%;
+    font-size: 200%;
+    margin: 6%;
+}
+
+#title-servf p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 130%;
 }
 
 #serv-comed, #serv-dimag, #serv-lacli, #serv-farm,
