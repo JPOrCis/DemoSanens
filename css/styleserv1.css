@@ -4,6 +4,15 @@
     height: auto;
 }
 
+@media (max-width: 360px) {
+
+    /*logo*/
+    .logosanens{
+        width: 30%;
+        height: auto;
+    }
+}
+
 /*BARRA NAVEGACION*/
 .fixed-top{
     background-color: rgba(249, 249, 249, 0.60);
