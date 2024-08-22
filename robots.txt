@@ -1,0 +1,16 @@
+# robots.txt para Clínica Sanens
+
+# Permitir el acceso a todos los rastreadores
+User-agent: *
+Disallow:
+
+# Especificar el mapa del sitio (sitemap) para ayudar a los motores de búsqueda a encontrar todas las páginas
+Sitemap: http://www.sanens.pe/sitemap.xml
+
+# Bloquear el acceso a directorios específicos (si es necesario)
+# Disallow: /privado/
+# Disallow: /archivos/
+
+# Configuración para rastreadores específicos
+# User-agent: Googlebot
+# Disallow: /no-google/
