@@ -1554,7 +1554,7 @@
     }
 
     #img-conv1, #img-conv2, #img-conv3, #img-conv4, #img-conv5 {
-        width: 120%;
+        width: 80%;
     }
     /*fin convenios*/
 
@@ -1634,12 +1634,12 @@
     }
 
     #col-logo {
-        max-width: 25%;
+        max-width: 50%;
     }
 
     #col-footer1, #col-footer2, #col-footer3{
-        flex: 0 0 25%;
-        max-width: 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 
     #ft1-h5, #ft2-h5, #ft3-h5 {
@@ -1664,7 +1664,7 @@
     }
 
     #propiedad{
-        font-size: 80%;
+        font-size: 70%;
     }
     /*fin footer*/
 }
@@ -2181,6 +2181,7 @@
 
     #propiedad{
         font-size: 80%;
+        align-items: center;
     }
     /*fin footer*/
 }
@@ -3164,13 +3165,13 @@
     }
 
     #ft1-h5, #ft2-h5, #ft3-h5 {
-        font-size: 130%;
+        font-size: 100%;
     }
 
     #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
     #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
     , #ft3-l1, #ft3-l2, #ft3-l3 {
-        font-size: 95%;
+        font-size: 75%;
     }
 
     #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
@@ -3185,7 +3186,8 @@
     }
 
     #propiedad{
-        font-size: 70%;
+        font-size: 65%;
+        align-items: center;
     }
     /*fin footer*/
 }
@@ -3345,6 +3347,11 @@
     #conv{
         font-size: 250%
     }
+
+    #img-conv1, #img-conv2, #img-conv3, #img-conv4, #img-conv5{
+        width: 80%;
+    }
+
     /*fin convenios*/
 
     /*inicio especialidades*/
