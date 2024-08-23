@@ -577,7 +577,7 @@ body{
     white-space: nowrap;
     margin-left: 10px;
     transition: opacity 0.3s;
-    font-size: 16px;
+    font-size: 80%;
 }
 
 .whatsapp-button:hover .button-text {
