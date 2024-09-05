@@ -1,6 +1,6 @@
 /*LOGO*/
 .logosanens{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -152,10 +152,18 @@
     border-radius: 3rem;
 }
 
-/*FOOTER*/
-
+/* FOOTER */
 #footer{
-    margin-top: 5%;
+    margin-top: 2%;
+}
+
+#col-logo {
+    max-width: 25%;
+}
+
+#col-footer1, #col-footer2, #col-footer3{
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 #ft1-h5, #ft2-h5, #ft3-h5 {
@@ -168,12 +176,14 @@
 , #ft3-l1, #ft3-l2, #ft3-l3 {
     color: #03789D;
     text-decoration: none;
+    font-size: 100%;
 }
 
 #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
 #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
 , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
     color: #00BED6;
+    font-size: 100%;
 }
 
 .text-body-secondary {
@@ -182,7 +192,7 @@
 }
 
 .footer-logo {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -192,7 +202,9 @@
 
 #propiedad{
     color: #005A76;
+    font-size: 80%;
 }
+
 
 /* Estilo del botones de WhatsApp */
 #meswa {
