@@ -1,0 +1,305 @@
+/* Estilos responsivos pantalla mínima visualización*/
+@media (min-width: 320px) {
+    .d-md-block {
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    /*logo*/
+    .logosanens{
+        width: 40%;
+        height: auto;
+    }
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 210%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #card-serv1 {
+        margin: 5% 5% 5% 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+
+    #card-serv2, #card-serv3, #card-serv4{
+        margin: 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+    
+    #serv-comed, #serv-dimag, #serv-lacli, #serv-farm{
+        width: 40%;
+    }
+    
+    #title-servf{
+        text-align: center;
+        margin: 1% 0% 10% 0%;
+        padding: 1%;
+    }
+    
+    #servf{
+        color: #F9F9F9;
+        background-color: #5D5C60;
+        padding: 5%;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        font-size: 100%;
+    }
+    
+    #servf:hover{
+        color: #F9F9F9;
+        background-color: #9E9DA0;
+        padding: 5%;
+        border-radius: 2rem;
+        font-size: 100%;
+    }
+    /*fin servicios*/
+
+    /*inicio footer*/
+    #footer{
+        padding: 0% 10% 0% 10%;    
+    }
+
+    #col-logo {
+        max-width: 50%;
+    }
+
+    #col-footer1, #col-footer2, #col-footer3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 120%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size:75%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 75%;
+    }
+
+    .footer-logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #propiedad{
+        font-size: 60%;
+    }
+    /* footer*/
+
+}
+
+@media (max-width: 450px) {
+
+    /*logo*/
+    .logosanens{
+        width: 40%;
+        height: auto;
+    }
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 210%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #card-serv1 {
+        margin: 5% 5% 5% 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+
+    #card-serv2, #card-serv3, #card-serv4{
+        margin: 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+    
+    #serv-comed, #serv-dimag, #serv-lacli, #serv-farm{
+        width: 40%;
+    }
+    
+    #title-servf{
+        text-align: center;
+        margin: 1% 0% 10% 0%;
+        padding: 1%;
+    }
+    
+    #servf{
+        color: #F9F9F9;
+        background-color: #5D5C60;
+        padding: 5%;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        font-size: 100%;
+    }
+    
+    #servf:hover{
+        color: #F9F9F9;
+        background-color: #9E9DA0;
+        padding: 5%;
+        border-radius: 2rem;
+        font-size: 100%;
+    }
+    /*fin servicios*/
+
+    /*inicio footer*/
+    #footer{
+        padding: 0% 10% 0% 10%;    
+    }
+
+    #col-logo {
+        max-width: 50%;
+    }
+
+    #col-footer1, #col-footer2, #col-footer3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 120%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size:75%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 75%;
+    }
+
+    .footer-logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #propiedad{
+        font-size: 60%;
+    }
+    /* footer*/
+
+}
+
+@media (max-width: 550px) {
+
+    /*logo*/
+    .logosanens{
+        width: 40%;
+        height: auto;
+    }
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 210%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #card-serv1 {
+        margin: 5% 5% 5% 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+
+    #card-serv2, #card-serv3, #card-serv4{
+        margin: 5%;
+        border-radius: 2rem;
+        border: 0;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    }
+    
+    #serv-comed, #serv-dimag, #serv-lacli, #serv-farm{
+        width: 40%;
+    }
+    
+    #title-servf{
+        text-align: center;
+        margin: 1% 0% 10% 0%;
+        padding: 1%;
+    }
+    
+    #servf{
+        color: #F9F9F9;
+        background-color: #5D5C60;
+        padding: 5%;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+        font-size: 100%;
+    }
+    
+    #servf:hover{
+        color: #F9F9F9;
+        background-color: #9E9DA0;
+        padding: 5%;
+        border-radius: 2rem;
+        font-size: 100%;
+    }
+    /*fin servicios*/
+
+    /*inicio footer*/
+    #footer{
+        padding: 0% 10% 0% 10%;    
+    }
+
+    #col-logo {
+        max-width: 50%;
+    }
+
+    #col-footer1, #col-footer2, #col-footer3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 120%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size:95%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 95%;
+    }
+
+    .footer-logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #propiedad{
+        font-size: 60%;
+    }
+    /* footer*/
+
+}
+
