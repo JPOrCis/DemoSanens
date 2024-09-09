@@ -14,17 +14,21 @@
 }
 
 /*BARRA NAVEGACION*/
-.fixed-top{
+/*.fixed-top{
     background-color: rgba(249, 249, 249, 0.60);
-}
+}*/
 
 .navbar-light .navbar-nav .nav-link {
-    color: #023C4F;
+    color: #FFF;
 }
   
 .navbar.scrolled {
-    background-color: #F9F9F9; /* Cambiar aquí el color de fondo deseado */
+    background-color: #7D7D7F; /* Cambiar aquí el color de fondo deseado */
     transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    background-color: #00BED6;
 }
 
 .navbar-nav{
@@ -135,21 +139,6 @@
     text-align: center;
     margin: 1%;
     padding: 1%;
-}
-
-#servf{
-    color: #F9F9F9;
-    background-color: #5D5C60;
-    padding: 1.2%;
-    border-radius: 3rem;
-    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
-}
-
-#servf:hover{
-    color: #F9F9F9;
-    background-color: #9E9DA0;
-    padding: 1.2%;
-    border-radius: 3rem;
 }
 
 /* FOOTER */
