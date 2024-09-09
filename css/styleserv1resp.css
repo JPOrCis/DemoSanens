@@ -7,7 +7,7 @@
 }
 
 /* Estilos genericos responsivos pantalla máxima visualización*/
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     /*inicio servicios*/
     #servi{
         margin-top: 2%;
@@ -93,13 +93,13 @@
 
     /*inicio footer*/
     #ft1-h5, #ft2-h5, #ft3-h5 {
-        font-size: 100%;
+        font-size: 130%;
     }
 
     #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
     #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
     , #ft3-l1, #ft3-l2, #ft3-l3 {
-        font-size:60%;
+        font-size:78%;
     }
 
     #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
@@ -109,7 +109,7 @@
     }
 
     #propiedad{
-        font-size: 60%;
+        font-size: 70%;
     }
     /*fin footer*/
 
@@ -137,6 +137,104 @@
 
     #title-servf p{
         font-size: 120%;
+    }
+    /*fin servicios*/
+
+    /*inicio footer*/
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 140%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size:100%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 100%;
+    }
+
+    #propiedad{
+        font-size: 90%;
+    }
+    /*fin footer*/
+
+}
+
+/* Estilos fuentes responsivos pantalla máxima visualización*/
+@media (min-width:451px) and (max-width: 550px) {
+
+    /*logo*/
+    .logosanens{
+        width: 45%;
+        height: auto;
+    }
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 220%;
+    }
+
+    #ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4,
+    #ct-serv5, #ct-serv6, #ct-serv7, #ct-serv8,
+    #ct-serv9, #ct-serv10{
+        font-size: 190%;
+    }
+
+    #title-servf p{
+        font-size: 140%;
+    }
+    /*fin servicios*/
+
+    /*inicio footer*/
+    #ft1-h5, #ft2-h5, #ft3-h5 {
+        font-size: 160%;
+    }
+
+    #ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+    #ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+    , #ft3-l1, #ft3-l2, #ft3-l3 {
+        font-size:120%;
+    }
+
+    #ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+    #ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+    , #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+        font-size: 120%;
+    }
+
+    #propiedad{
+        font-size: 100%;
+    }
+    /*fin footer*/
+
+}
+
+/* Estilos fuentes responsivos pantalla máxima visualización*/
+@media (min-width:551px) and (max-width: 700px) {
+
+    /*logo*/
+    .logosanens{
+        width: 60%;
+        height: auto;
+    }
+
+    /*inicio servicios*/
+    #servi{
+        font-size: 220%;
+    }
+
+    #ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4,
+    #ct-serv5, #ct-serv6, #ct-serv7, #ct-serv8,
+    #ct-serv9, #ct-serv10{
+        font-size: 170%;
+    }
+
+    #title-servf p{
+        font-size: 110%;
     }
     /*fin servicios*/
 
