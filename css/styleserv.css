@@ -1,0 +1,324 @@
+#group-serv-row1, #group-serv-row2, #group-serv-row3{
+    background-image: url('../images/banner/fondo\ sec.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+/*LOGO*/
+.logosanens{
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 360px) {
+
+    /*logo*/
+    .logosanens{
+        width: 30%;
+        height: auto;
+    }
+}
+
+/*BARRA NAVEGACION*/
+/*.fixed-top{
+    background-color: rgba(249, 249, 249, 0.60);
+}*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+  
+.navbar.scrolled {
+    background-color: #7D7D7F; /* Cambiar aquí el color de fondo deseado */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    background-color: #00BED6;
+}
+
+.navbar-nav{
+    align-items: center;
+    padding-left: 20%;
+}
+
+.btn-info {
+    background-color: #00BED6;
+    border-color: #00BED6;
+    border-radius: 2rem;
+}
+
+#soymedico{
+    color: #F9F9F9;
+}
+
+/*SERVICIOS*/
+#title-servi{
+    text-align: center;
+    color: #5D5C60;
+    background-color: #96D3E3;
+    padding: 2%;
+}
+
+#servi{
+    font-weight: bold;
+    font-size: 300%;
+}
+
+#group-serv-row3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#card-serv1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    
+}
+
+#card-serv2, #card-serv3 {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+}
+
+#card-serv4 {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+}
+
+#card-serv5 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    
+}
+
+#card-serv6, #card-serv7 {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+}
+
+#card-serv8 {
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+}
+
+#card-serv9 {
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 1%;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 1rem 1rem 0.35rem rgba(0, 90, 118, 0.25);
+    
+}
+
+#card-serv1 :hover, #card-serv2 :hover, #card-serv3 :hover, #card-serv4 :hover,
+#card-serv5 :hover, #card-serv6 :hover, #card-serv7 :hover, #card-serv8 :hover,
+#card-serv9 :hover, #card-serv10 :hover{
+    border-radius: 2rem;
+    border: 0;
+}
+
+#cb-serv1, #cb-serv2, #cb-serv3, #cb-serv4,
+#cb-serv5, #cb-serv6, #cb-serv7, #cb-serv8,
+#cb-serv9, #cb-serv10{
+    background-color: #5D5C60;
+    color: #F9F9F9;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    border: 0;
+}
+
+#serv1, #serv2, #serv3, #serv4,
+#serv5, #serv6, #serv7, #serv8,
+#serv9, #serv10{
+    margin: 0%;
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+    border: 0;
+}
+
+#ct-serv1, #ct-serv2, #ct-serv3, #ct-serv4,
+#ct-serv5, #ct-serv6, #ct-serv7, #ct-serv8,
+#ct-serv9, #ct-serv10{
+    font-size: 150%;
+    margin: 10% 10% 10% 10%;
+    text-align: left;
+}
+
+#title-servf p{
+    margin: 10% 10% 10% 10%;
+    text-align: left;
+    font-size: 90%;
+}
+
+#serv-comed, #serv-dimag, #serv-lacli, #serv-farm,
+#serv-dimag{
+    margin-top: 5%;
+    width: 40%;
+}
+
+#title-servf{
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+#link-serv{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+    right: auto;
+    text-decoration: none;
+    color: #F9F9F9;
+    transition: transform 0.3s;
+}
+
+#link-serv:hover {
+    color: #00BED6;
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+#footer{
+    max-width: 100%;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#col-logo {
+    max-width: 25%;
+}
+
+#col-footer1, #col-footer2, #col-footer3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+#ft1-h5, #ft2-h5, #ft3-h5 {
+    color: #023C4F;
+    text-decoration: none;
+}
+
+#ft1-l1, #ft1-l2, #ft1-l3, #ft1-l4, 
+#ft2-l1, #ft2-l2, #ft2-l3, #ft2-l4
+, #ft3-l1, #ft3-l2, #ft3-l3 {
+    color: #03789D;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+#ft1-l1:hover, #ft1-l2:hover, #ft1-l3:hover, #ft1-l4:hover, 
+#ft2-l1:hover, #ft2-l2:hover, #ft2-l3:hover, #ft2-l4:hover
+, #ft3-l1:hover, #ft3-l2:hover, #ft3-l3:hover {
+    color: #00BED6;
+    font-size: 100%;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #023C4F !important;
+}
+
+.footer-logo {
+    max-width: 60%;
+    height: auto;
+}
+
+.border-top {
+    border-top: 1px solid #023C4F !important;
+}
+
+#propiedad{
+    color: #005A76;
+    font-size: 60%;
+}
+
+
+/* Estilo del botones de WhatsApp */
+#meswa {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el borde inferior */
+    right: 20px; /* Distancia desde el borde derecho */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    color: #023C4F;
+}
+
+.whatsapp-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.whatsapp-button {
+    background-color: #9E9DA0; /* Color verde de WhatsApp */
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, width 0.3s, opacity 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Solo el icono al inicio */
+    height: 50px; /* Solo el icono al inicio */
+    position: relative;
+    margin-bottom: 10px; /* Espacio entre botones */
+}
+
+.whatsapp-icon {
+    width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 30px;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    width: 200px; /* Ancho cuando está expandido */
+    height: 50px; /* Ajustar el alto según sea necesario */
+}
+
+.button-text {
+    opacity: 0;
+    white-space: nowrap;
+    margin-left: 10px;
+    transition: opacity 0.3s;
+    font-size: 90%;
+}
+
+.whatsapp-button:hover .button-text {
+    opacity: 1;
+}
